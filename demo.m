@@ -1,9 +1,10 @@
 fprintf('Running demo.m....\n');
-eval(['mex LOGOS.cpp ../src/Point.cpp ../src/Match.cpp ../src/Logos.cpp ../src/PointPair.cpp']); 
+eval(['mex matlab/LOGOS.cpp src/Point.cpp src/Match.cpp src/Logos.cpp src/PointPair.cpp']); 
+addpath(genpath('matlab'))
 
 numClusters = 512;
 
-load(sprintf('centers_%s_%d.mat','SURF',numClusters),'centers');
+load(sprintf('matlab/centers_%s_%d.mat','SURF',numClusters),'centers');
 
 if exist('vl_kdtreebuild')
     kdtree = vl_kdtreebuild(centers);
