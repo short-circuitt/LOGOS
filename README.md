@@ -20,7 +20,7 @@ Run
 demo
 ```
 
-for a usage example. 
+in MATLAB for a usage example. 
 
 This example uses images 1448.jpg and 388.jpg from the [Oxford City Centre dataset](http://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/data.html). 
 
