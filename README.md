@@ -2,7 +2,7 @@
 
 LOGOS is a method of outlier removal specifically designed for image features such as SURF. 
 
-Details on LOGOS can be found in [link to paper](urlforpaper).
+Details on LOGOS can be found in the paper [LOGOS: Local geometric support for high-outlier spatial verification](LOGOS.pdf).
 
 ## Dependencies
 
